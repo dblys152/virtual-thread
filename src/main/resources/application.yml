@@ -1,3 +1,15 @@
+logging:
+  level:
+    root: INFO
+
+server:
+  port: 8080
+
 spring:
   application:
     name: virtualthread
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ys_local
+    driver-class-name: org.postgresql.Driver
+    username: young
+    password: youngseok
